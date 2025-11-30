@@ -6,6 +6,33 @@ she peaced out for the weekend muttering "damn, that's smaller of a size than i 
 
 this is what i get for sharing a workspace with a chaotic person. help?
 
+
 **Flag format:** `BINGOCTF{flag}`
 
+
 **Attachment:** [help_fix.pcap](./assets/help_fix.pcap)
+
+
+**Hints from Description**
+- “Picture iNto the Green bin” → probably an image inside the PCAP
+- “corrupted beyond repair” → something being corrupted
+- “smaller of a size than I expected” → something about size / resolution changed, not just corruption
+
+
+## Steps to solve
+Knowing that I needed to export something from the pcap file. I went straight to using wireshark to seacrh for export object. I managed to find one in the http export and proceeded to export it.
+
+
+`File -> Export Object -> http`
+
+
+<img width="700" height="120" alt="export" src="https://github.com/user-attachments/assets/73378d35-74f2-47ec-851a-ace141fdf392" />
+
+
+**Exported:** [can_you_fix_meeee.bin](./assets/can_you_fix_meeee.bin)
+
+Next is to check the file and we can see the file with .bin extension is actually a `PNG`.
+```bash
+└─$ file can_you_fix_meeee.bin 
+can_you_fix_meeee.bin: PNG image data, 800 x 700, 8-bit/color RGBA, non-interlaced
+```
