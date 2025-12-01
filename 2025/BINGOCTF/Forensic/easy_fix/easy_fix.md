@@ -164,7 +164,7 @@ Now we have `BINGOCTF{n0_y0u_` and `m3_br0}` so we need to find the middle part.
 
 ---
 
-Step 3 - Fixing PNG
+## Step 3 - Fixing PNG
 
 ```bash
 └─$ xxd can_you_fix_meeee.bin | head
@@ -181,7 +181,7 @@ Step 3 - Fixing PNG
 00000090: 0000 0031 0102 000b 0000 0028 0100 0032  ...1.......(...2
 ```
 
-** Why PNG was broken? **
+**Why PNG was broken?**
 
 `49 48 44 52  00 00 03 20  00 00 02 BC  08 06 00 00 00  
    IHDR      width=800     height=700`
@@ -198,6 +198,7 @@ Use HxD or https://hexed.it/ to edit the bytes and the fixed image:
 
 `00 00 02 BC -> 00 00 03 20`
 
+<img src="./assets/fixed.png" width="300">
 
 Combining the pieces together to get the flag.
 
