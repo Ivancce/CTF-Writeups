@@ -5,7 +5,7 @@
 
 **Flag Format:** `BINGOCTF{flag}`
 
-**Attachments:** ![B!nG0.mp3](B!nG0.mp3)
+**Attachments:** ![B!nG0.mp3](./assets/B!nG0.mp3)
 
 ## Steps to Solve
 
