@@ -5,7 +5,7 @@
 
 **Flag Format:** `BINGOCTF{flag}`
 
-**Attachments:** ![bingo.mp3](bingo.mp3)
+**Attachments:** ![B!nG0.mp3](B!nG0.mp3)
 
 ## Steps to Solve
 
@@ -13,8 +13,8 @@
 
 2. Using `file` command to see that it is stereo audio.
 ```bash
-└─$ file bingo.mp3
-bingo.mp3: Audio file with ID3 version 2.4.0, contains: MPEG ADTS, layer III, v1, 64 kbps, 44.1 kHz, Stereo
+└─$ file B\!nG0.raw     
+B!nG0.raw: Audio file with ID3 version 2.4.0, contains: MPEG ADTS, layer III, v1, 64 kbps, 44.1 kHz, Stereo
 ```
 
 3. Use Audacity for further analysis.
