@@ -5,9 +5,9 @@
 
 **Flag Format:** `BINGOCTF{flag}`
 
-**Attachments:** 
+**Attachments:** ![bingo.mp3](bingo.mp3)
 
-## Steps to SOlve
+## Steps to Solve
 
 1. Firstly, using earphones to listen to the audio, we can hear a brief hello and noises after.
 
