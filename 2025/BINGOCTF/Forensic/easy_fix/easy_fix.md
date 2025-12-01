@@ -194,7 +194,7 @@ But when we recompute CRC using 800×800, the CRC matches:
 
 - DB 70 06 68   ← CORRECT
 
-Use HxD or https://hexed.it/ to edit the bytes and the fixed image:
+Use HxD or https://hexed.it/ to edit the bytes and get the fixed image:
 
 `00 00 02 BC -> 00 00 03 20`
 
